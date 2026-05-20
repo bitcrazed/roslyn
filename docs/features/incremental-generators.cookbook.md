@@ -340,7 +340,7 @@ beyond the scope of this cookbook. Instead, we suggest writing a separate analyz
 
 **User scenario:** As a generator author I want to be able to implement the `INotifyPropertyChanged` pattern automatically for a user.
 
-**Solution:** The design tenant 'Explicitly additive only' seems to be at direct odds with the ability to implement this, and appears to call for user code modification.
+**Solution:** The design tenet 'Explicitly additive only' seems to be at direct odds with the ability to implement this, and appears to call for user code modification.
 However we can instead take advantage of explicit fields and instead of *editing* the users properties, directly provide them for listed fields.
 
 **Example:**
